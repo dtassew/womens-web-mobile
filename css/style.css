@@ -138,11 +138,13 @@ a {
   animation-fill-mode: forwards;
   opacity: 0;
 
-  
-  @media (prefers-reduced-motion: reduce) {
+ }
+ 
+ @media (prefers-reduced-motion: reduce) {
+    img{
     animation: none;
   }
-}
+ }
 
 @keyframes slideIn {
   0% {
